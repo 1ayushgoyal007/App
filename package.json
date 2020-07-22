@@ -1,0 +1,51 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.5",
+    "axios": "^0.19.2",
+    "expo": "~36.0.0",
+    "expo-google-app-auth": "^8.1.0",
+    "expo-location": "~8.0.0",
+    "expo-random": "~8.0.0",
+    "firebase": "^7.15.1",
+    "geolib": "^3.3.1",
+    "nanoid": "^3.1.10",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-communications": "^2.2.1",
+    "react-native-dropdown": "^0.0.6",
+    "react-native-dropdown-menu": "^2.0.0",
+    "react-native-elements": "^2.0.2",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-get-random-values": "^1.4.0",
+    "react-native-google-signin": "^2.1.1",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-multiple-select": "^0.5.5",
+    "react-native-ratings": "^7.2.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-shadow": "^1.2.2",
+    "react-native-simple-shadow-view": "^1.6.3",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^9.13.2",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.1.0",
+    "react-navigation-drawer": "^2.4.13",
+    "react-navigation-stack": "^2.0.16",
+    "react-navigation-tabs": "^2.8.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "babel-preset-expo": "~8.1.0"
+  },
+  "private": true
+}
