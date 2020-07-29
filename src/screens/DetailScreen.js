@@ -290,7 +290,7 @@ const DetailScreen  = ({ navigation }) => {
                         updateThenRoute(name, gender, state, number);
                     }
                 }else{
-                    if( name.length <= 2 || gender.length <= 1 || state.length <= 1 || purpose.length <= 1  || parseInt( number) != 10  ){
+                    if( name.length <= 2 || gender.length <= 1 || state.length <= 1 || purpose.length <= 1  || parseInt(number).toString().length != 10  ){
                         console.log('Enter Valid Credentials');
                     }else{
                         saveThenRoute(name, gender, state, purpose, selected, number);
